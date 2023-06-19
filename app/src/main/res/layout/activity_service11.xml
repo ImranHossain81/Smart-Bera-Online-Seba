@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service_11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/Service11"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/app_themecolor"
+            >
+
+            <ImageView
+                android:id="@+id/back11"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                />
+            <TextView
+                android:fontFamily="@font/regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিজ্ঞান চর্চা ফাউন্ডেশন"
+                android:layout_marginRight="40dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                tools:ignore="Orientation">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="15dp"
+                    android:backgroundTint="#E5F0F4"
+                    android:outlineSpotShadowColor="#009688"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:justificationMode="inter_word"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:text="BigganCharcha Foundation কী?"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+
+                        <TextView
+
+                            android:id="@+id/textView31"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="8dp"
+                            android:gravity="top"
+                            android:justificationMode="inter_word"
+                            android:padding="8dp"
+                            android:text="BigganCharcha Foundation একটি বিজ্ঞানভিত্তিক সামাজিক সংস্হা
+যেখানে বিভিন্ন বয়সের শিশুদের/শিক্ষার্থীদের আধুনিক বিজ্ঞান শিক্ষার লক্ষ্যে কাজ করে থাকে ।"
+                            android:textColor="#0C0103"
+                            android:textSize="14dp"
+                            android:textStyle="normal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="10dp"
+                            android:gravity="top"
+                            android:justificationMode="inter_word"
+                            android:padding="8dp"
+                            android:text="BigganCharcha Foundation এর কাজের জায়গা? "
+                            android:textColor="#130F10"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="10dp"
+                            android:gravity="top"
+                            android:padding="8dp"
+                            android:text="দুর্গম গ্রামে বা শহরে যেখানে বিজ্ঞান অনুশীলন থেকে বঞ্চিত সেখানে বিভিন্ন প্রোজেক্ট এবং সেমিনার এর মাধ্যমে শিক্ষার্থী/ শিশুদের বিজ্ঞান চর্চার বিকাশ ঘটায় ।"
+                            android:textColor="#130F10"
+                            android:textSize="14dp"
+                            android:textStyle="italic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="10dp"
+                            android:gravity="top"
+                            android:justificationMode="inter_word"
+                            android:padding="8dp"
+                            android:text="BigganCharcha Foundation কেন কাজ করে?"
+                            android:textColor="#130F10"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="10dp"
+                            android:gravity="top"
+                            android:justificationMode="inter_word"
+                            android:padding="8dp"
+                            android:text="বর্তমান সময়ে  বিজ্ঞানে যেভাবে আধুনিকত্ব এবং নতুনত্ব সংযুক্ত হচ্ছে
+সেখানে রাজধানী ও বড় নগরীর শিশুদের কিছুটা বিজ্ঞান চর্চা থাকলেও গ্রামের দিক টাতে খুবই পিছিয়ে আছে। আধুনিক বিজ্ঞানের সাথে শিক্ষার্থীদের /শিশুদের মেলবন্ধন না ঘটালে বিজ্ঞান চর্চার যে শুন্য স্থান তৈরী হবে তা একটি জেনারেশনকে পিছিয়ে ফেলবে । এই Foundation  টি বৈজ্ঞানিক চিন্তাধারা, ঘটনা, থিয়োরি, রোবোটিকস, আর্টিফিশিয়াল ইন্টেলিজেন্স, ইলেকট্রনিকস, কন্ট্রোলিং, অরিগামি, হিউম্যান ব্রেইন এবং বৈজ্ঞানিক ব্যাখ্যা নিয়ে কাজ করে।"
+                            android:textColor="#130F10"
+                            android:textSize="14dp"
+                            android:textStyle="italic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="10dp"
+                            android:gravity="top"
+                            android:justificationMode="inter_word"
+                            android:padding="8dp"
+                            android:text="কেন BigganCharcha Foundation দরকার?"
+                            android:textColor="#130F10"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="10dp"
+                            android:gravity="top"
+                            android:justificationMode="inter_word"
+                            android:padding="8dp"
+                            android:text="শিশুদের একাডেমিক শিখনের পাশাপাশি বাস্তবিক ও আধুনিক বিজ্ঞান অনুধাবনে সহায়তা করে।
+শিশুদের সৃজনশীল করা এবং চারিপাশের ঘটে যাওয়া ঘটনার পিছের কারণ খুঁজে বের করার সক্ষমতা তৈরী করে যাতে তারা out of the box চিন্তা করতে পারে যা বর্তমান সামাজিক ব্যবস্থায় যোগ্য লিডার গঠনে সহায়তা করবে।"
+                            android:textColor="#130F10"
+                            android:textSize="14dp"
+                            android:textStyle="italic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+
+<!--
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/app_self"
+                            tools:ignore="MissingConstraints" />
+-->
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp">
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <!--<androidx.cardview.widget.CardView
+                    android:backgroundTint="#C6F8F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="15dp"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="5dp"
+                    android:outlineSpotShadowColor="#009688"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:gravity="center"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="-5dp"
+                            >
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:background="@drawable/bottom_curved"
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:paddingVertical="29dp"
+
+                            >
+                            <TextView
+                                android:fontFamily="@font/regular"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:text="হোটেল ঈগল"
+                                android:textColor="@color/black"
+                                />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dauladia-Faridpur-Magura-Jhenaidah Rd"
+                                android:textSize="10sp"
+                                android:textColor="#4E4C4C"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="01789-031073"
+                                android:textColor="#9F4124"
+                                android:textSize="16dp"
+                                android:layout_marginTop="4dp"
+                                android:textIsSelectable="true"
+
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            >
+
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:id="@+id/hotel1"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                app:lottie_rawRes="@raw/call"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true"/>
+
+                            <TextView
+                                android:fontFamily="@font/regular"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="কল করুন"
+                                android:textSize="15dp"
+                                android:gravity="center"
+                                android:textColor="#3C3B3B"
+                                android:layout_marginBottom="10dp"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginRight="-5dp"
+                            >
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:background="@drawable/bottom_curved2"
+                                android:layout_marginTop="103dp"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#AFADAD"
+                    />-->
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
